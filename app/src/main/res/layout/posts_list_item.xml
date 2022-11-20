@@ -25,6 +25,10 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:text="@{post.title}"
+                android:background="@color/purple_500"
+                android:textColor="@color/black"
+                android:textAllCaps="true"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
